@@ -238,8 +238,8 @@ class RemarkableWindow(Window):
 
         s =  self.window.get_size()
         self.remarkable_settings.update(
-            win_size_width=s.height,
-            win_size_height=s.width)
+            win_size_width=s.width,
+            win_size_height=s.height)
 
         self.remarkable_settings['win_maximized'] = self.window.is_maximized()
 
